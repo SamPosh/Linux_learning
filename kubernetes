@@ -1,0 +1,27 @@
+#Kubectl commands
+
+#To get secret
+kubectl get secret
+
+#To get Storageclass
+kubectl get sc
+
+#To get Persistentvolumeclaim
+kubectl get pvc
+
+# To get Pod
+kubectl get pod
+
+# To create resources using file name
+kubectl create -f <resource filename>
+
+# To get resources using file name
+kubectl get -f <resource name>
+
+# To get kube-system pods
+kubectl get pod -n kube-system
+
+# To know kubernetes nodes
+kubectl get node
+kubectl get node -o wide # To know detailed information like IP address, OS ,kubernetes version
+
