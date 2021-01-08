@@ -25,3 +25,4 @@ kubectl get pod -n kube-system
 kubectl get node
 kubectl get node -o wide # To know detailed information like IP address, OS ,kubernetes version
 
+kubectl logs pod-name -n kube-system <containername>
