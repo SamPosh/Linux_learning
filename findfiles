@@ -9,3 +9,8 @@ find /mytest -iname test # this will ignore the case.
 
 # To find the files older than 10 days but less than 13 days 
 find /mytest -mtime +10 -mtime -13
+
+# find the files in current dir which is greater than given size
+find . -size +1M
+find . -size +1G
+
