@@ -20,3 +20,6 @@ find /tmp -iname sc*
 # display the file name in long list 
 find /tmp -iname sc* -ls 
 
+# To find the directories in /tmp
+find /tmp -type d
+
