@@ -1,0 +1,11 @@
+# to find all the files in current directory and sub director
+
+find
+find .
+
+# To find all the files with the name 'test' in folder mytest
+find /mytest -name test
+find /mytest -iname test # this will ignore the case.
+
+# To find the files older than 10 days but less than 13 days 
+find /mytest -mtime +10 -mtime -13
