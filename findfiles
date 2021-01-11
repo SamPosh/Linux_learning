@@ -14,3 +14,9 @@ find /mytest -mtime +10 -mtime -13
 find . -size +1M
 find . -size +1G
 
+# find files which are start with the name sc
+find /tmp -iname sc*
+
+# display the file name in long list 
+find /tmp -iname sc* -ls 
+
